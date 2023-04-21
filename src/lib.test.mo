@@ -13,8 +13,7 @@ suite(
     test(
       "test2",
       func() {
-        // let echo = Lib.echo("hello");
-        let echo = "hello";
+        let echo = Lib.echo("hello");
         assert (echo == "hello");
       },
     );
